@@ -1,6 +1,7 @@
 import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
-import group from "/src/assets/Group 78 (1).png"
+import group from "/src/assets/Group 78 (1).png";
+import { Link } from "react-router-dom";
 
 const PoweredBy = () => {
   return (
@@ -17,11 +18,17 @@ const PoweredBy = () => {
                 and more trustworthy experiences
               </p>
             </div>
-            <button className="py-[13px] px-6 bg-btnC rounded-[12px] font-dmSans font-semibold text-base text-primary cursor-pointer flex items-center gap-x-2 mt-10 h-12">
-              Get template <FaArrowRightLong />
-            </button>
+            <Link to={"/"}>
+              <button className="py-[13px] px-6 bg-btnC rounded-[12px] font-dmSans font-semibold text-base text-primary cursor-pointer flex items-center gap-x-2 mt-10 h-12">
+                Get template <FaArrowRightLong />
+              </button>
+            </Link>
           </div>
-          <img src={group} alt={"Group 78 (1).png"} className="absolute top-0 right-0 rounded-r-2xl bottom-0 object-cover h-full -z-10" />
+          <img
+            src={group}
+            alt={"Group 78 (1).png"}
+            className="absolute top-0 right-0 rounded-r-2xl bottom-0 object-cover h-full -z-10"
+          />
         </div>
       </div>
     </section>
