@@ -60,7 +60,7 @@ const WhyChoose = () => {
               alt={"Frame 66.png"}
               className="absolute top-0 right-0"
             />
-            <div className="w-[371px] p-8 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-lg ml-[105px]">
+            <div className="w-[371px] p-8 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-lg mt-3 ml-[105px]">
               <h5 className="font-dmSans font-medium text-[20px] text-white pb-8">
                 Your portfolio is up <span className="text-btnC">2.31%</span>
               </h5>
