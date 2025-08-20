@@ -16,6 +16,7 @@ const Platforms = () => {
     speed: 1000,
     autoplaySpeed: 1500,
     arrows: false,
+    pauseOnHover: false,
   };
   return (
     <section className="bg-primary py-[72px]">
@@ -27,22 +28,22 @@ const Platforms = () => {
           <div className="mx-[90px]">
             <Slider {...settings}>
             <div className="px-9">
-              <img src={logoOne} alt={"Frame.png"} className="h-8" />
+              <img src={logoOne} alt={"Frame.png"} className="h-8 cursor-pointer" />
             </div>
             <div className="px-9">
-              <img src={logoTwo} alt={"logo-55.png"} />
+              <img src={logoTwo} alt={"logo-55.png"} className="cursor-pointer" />
             </div>
             <div className="px-9">
-              <img src={logoThree} alt={"logo-51.png"} />
+              <img src={logoThree} alt={"logo-51.png"} className="cursor-pointer" />
             </div>
             <div className="px-9">
-              <img src={logoFour} alt={"logo-7.png"} />
+              <img src={logoFour} alt={"logo-7.png"} className="cursor-pointer" />
             </div>
             <div className="px-9">
-              <img src={logoFive} alt={"logo-28.png"} />
+              <img src={logoFive} alt={"logo-28.png"} className="cursor-pointer" />
             </div>
             <div className="px-9">
-              <img src={logoThree} alt={"logo-51.png"} />
+              <img src={logoThree} alt={"logo-51.png"} className="cursor-pointer" />
             </div>
           </Slider>
           </div>
