@@ -36,7 +36,7 @@ const CryptoCurrency = () => {
                 <FaArrowRightLong />
               </div>
             </div>
-            <div className="py-[42px] px-[21px] w-[194px] bg-white/5 border border-white/10 rounded-[14px] backdrop-blur-xl text-center absolute bottom-[200px] right-[100px]">
+            <div className="py-[42px] px-[21px] w-[194px] bg-white/5 border border-white/10 rounded-[14px] backdrop-blur-xl text-center absolute bottom-[200px] right-[94px]">
               <h6 className="font-dmSans font-semibold text-[21px] text-white pb-[7px]">
                 Bitcoin
               </h6>
@@ -56,14 +56,14 @@ const CryptoCurrency = () => {
                 <FaArrowRightLong />
               </div>
             </div>
-            <div className="h-[105.84px] w-[105.84px] p-[21px] rounded-[14px] bg-[#E84142]/20 border border-[#E84142]/20 backdrop-blur-[2px] absolute top-[180px] right-[188px]">
+            <div className="h-[105.84px] w-[105.84px] p-[21px] rounded-[14px] bg-[#E84142]/20 border border-[#E84142]/20 backdrop-blur-[2px] absolute top-[180px] right-[182px]">
               <img src={avalanche} className={"h-full w-full object-cover"} />
             </div>
             <div className="h-[105.84px] w-[105.84px] p-[21px] rounded-[14px] bg-[#E6007A]/20 border border-[#E6007A]/20 backdrop-blur-[2px] absolute bottom-[170px] left-[225px]">
               <img src={frame45} className={"h-full w-full object-cover"} />
             </div>
           </div>
-          <div className={"w-[550px] pl-8"}>
+          <div className={"w-[550px] pt-7 pl-[58px]"}>
             <p className={"font-dmSans text-[18px] text-white"}>
               Crypto landing page <span className={"text-btnC"}>template</span>
             </p>
