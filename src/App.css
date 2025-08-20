@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme{
+  --font-dmSans: "DM Sans", sans-serif;
+  --font-dmMono: "DM Mono", monospace;
+
+  --color-primary: #000510;
+  --color-btnC: #99E39E;
+}
