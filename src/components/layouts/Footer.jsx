@@ -11,7 +11,7 @@ const Footer = () => {
     <>
     <section className={"pt-[80px] bg-primary"}>
       <div className={"max-w-[1200px] m-auto border-b border-white/20 pb-[80px]"}>
-        <div className={"grid grid-cols-[50%_50%]"}>
+        <div className={"flex justify-between"}>
           <div>
             <Link to={"/"}>
               <img src={logo} alt={"Frame 13.png"} />
