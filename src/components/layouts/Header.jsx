@@ -19,7 +19,9 @@ const Header = () => {
                 <Link to={"/"}><li className='font-dmSans font-medium text-base text-white'>FAQs</li></Link>
               </ul>
             </div>
-            <button className='py-[11px] px-5 bg-btnC rounded-[12px] font-dmSans font-semibold text-base text-primary cursor-pointer'>Get template</button>
+            <Link to={"/"}>
+                <button className='py-[11px] px-5 bg-btnC rounded-[12px] font-dmSans font-semibold text-base text-primary cursor-pointer'>Get template</button>
+            </Link>
           </div>
         </div>
       </section>

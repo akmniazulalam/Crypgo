@@ -1,6 +1,7 @@
 import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import bannerImg from "/src/assets/Frame 204 (1).png";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -18,9 +19,11 @@ const Banner = () => {
               Trade cryptocurrencies with ease, security, and advanced features
               on our cutting-edge platform.
             </p>
-            <button className="py-[13px] px-6 bg-btnC rounded-[12px] font-dmSans font-semibold text-base text-primary cursor-pointer flex items-center gap-x-2 mt-10">
-              Explore more <FaArrowRightLong />
-            </button>
+            <Link to={"/"}>
+              <button className="py-[13px] px-6 bg-btnC rounded-[12px] font-dmSans font-semibold text-base text-primary cursor-pointer flex items-center gap-x-2 mt-10">
+                Explore more <FaArrowRightLong />
+              </button>
+            </Link>
           </div>
           <div className="relative">
             <img src={bannerImg} alt={"Frame 204 (1).png"} />
