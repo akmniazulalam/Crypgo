@@ -21,7 +21,7 @@ const WhyChoose = () => {
             <h2 className="font-dmSans font-semibold text-[40px] text-white pb-10 leading-[120%] pt-3">
               Features of the crypto framer mobile application
             </h2>
-            <div className="grid grid-cols-2 grid-rows-2 gap-x-0 gap-y-12">
+            <div className="grid grid-cols-2 grid-rows-2 gap-x-0 gap-y-12 w-[510px]">
               <div className="flex gap-x-4 w-[210px]">
                 <img
                   src={frame51}
